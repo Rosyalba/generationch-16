@@ -1,0 +1,44 @@
+.cuadro{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px; */
+
+    
+    margin: 20px 40px;
+    padding: 50px 40px 30px 20px;
+    border: 10px solid yellow;
+     border-radius: 10% 20% 30% 40%;
+}
+.el-1{
+    background-color: blue;
+    /* position: fixed;
+    bottom: 0;
+    right: 0; */
+}
+.el-2{
+    background-color: red;
+    /* position: absolute;
+    bottom: 200px;
+    left:  200px; */
+    position: sticky;
+    top:0;
+    
+}
+.el-3{
+    background-color: pink;
+    /* position:relative;
+    bottom: 200px;
+    left: 200px; */
+}
+.el-4{
+    background-color: green;
+    position: relative;
+    right: 0;
+}
+.el-5{
+    background-color: darkorchid;
+}
