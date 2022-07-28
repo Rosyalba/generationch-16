@@ -1,3 +1,7 @@
+
+
+
+
 .cuadro{
     background-color: aqua;
     height: 100px;
@@ -26,7 +30,7 @@
     left:  200px; */
     position: sticky;
     top:0;
-    
+
 }
 .el-3{
     background-color: pink;
