@@ -6,13 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introducción a Bootstrap</title>
 <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap-4.6.2-dist/style.css">
+
 
 </head>
 <body>
-<h1>Introduccion a Bootstrap</h1>
-<h2>Esto es solo una Introduccion</h2>
-<button>soy un boton</button>
-<script type="text/javascript" src="././JQueri/jquery-3.6.0.min.js"></script>
+
+
+<!-- <h1>Introduccion a Bootstrap</h1>
+
+<button class="btn-success" >soy un boton</button>
+ --><!-- 
+Uso del container -->
+<div class="container border">
+    <header id="header" class= "col-12 bg-primary text-white p-2">
+        <h2>Esto es solo una Introducción</h2>
+    </header>
+<!-- El menu -->
+    <nav class="col-12 bg-secondary">
+        <ul id="menu" class=" nav row w-100">
+
+        <li class="col">Inicio</li>
+        <li class="col">Página</li>
+        <li class="col">Página</li>
+        <li class="col">Página</li>
+        <li class="col">Contacto</li>
+        </ul>
+
+    </nav>
+<!--Contenido-->
+<!--barra lateral-->
+<section class="col-12 border">
+    <div class="row">
+<!--Contenido productos-->
+<section class="col-9 border">
+    <!--barra lateral-->
+    <h2>Productos</h2>
+<hr>
+<div class="item row">
+    <div class="item col-3 bg-primary m-3 ">
+        producto1
+    </div>
+    <div class="item col-3 bg-secondary m-3">
+        producto2
+    </div>
+    <div class="item col-3 bg-danger m-3">
+        producto3
+    </div>
+    <div class="item col-3 bg-primary m-3 ">
+        producto1
+    </div>
+    <div class="item col-3 bg-secondary m-3">
+        producto2
+    </div>
+    <div class="item col-3 bg-danger m-3">
+        producto3
+    </div>
+    <div class="item col-3 bg-primary m-3 ">
+        producto1
+    </div>
+    <div class="item col-3 bg-secondary m-3">
+        producto2
+    </div>
+    <div class="item col-3 bg-danger m-3">
+        producto3
+    </div>
+</div>
+
+</section>
+<aside class="col-3">
+    <h2>Barra lateral</h2>
+
+</aside>    
+
+    </div>
+</section>
+
+<footer class="col-lg-12 bg-info">
+    Esto es un footer
+</footer>
+
+</div>
+
+
+
+ <script type="text/javascript" src="././JQueri/jquery-3.6.0.min.js"></script>
 <script type="text/javascript" src="bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
     
 </body>
