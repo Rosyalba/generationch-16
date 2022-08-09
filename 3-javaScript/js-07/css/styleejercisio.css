@@ -1,0 +1,15 @@
+
+
+.btn-cat{
+    background-color: rgb(226, 26, 59);
+    color: black;
+    
+}
+
+#img-catito{
+
+object-fit: contain;
+height: 600;
+width: 400;
+background-color: black;
+}
