@@ -19,8 +19,12 @@ public class Diccionario {
          * */
 
         Map<String, String> diccionario = new HashMap<String, String>();
+        List<String> list=new ArrayList<String>();
+        Map<String, String> palabras = new HashMap<String, String>();
+        int x;
+
+
         diccionario.put("ventana","window");
-        diccionario.put("puerta","door");
         diccionario.put("lapiz","pencil");
         diccionario.put("pluma","pen");
         diccionario.put("esperanza","hope");
@@ -40,8 +44,32 @@ public class Diccionario {
         diccionario.put("conejo", "rabbit");
         diccionario.put("perro","dog");
 
-        double x = (int)(Math.random()*((20-1)+1))+1;
+        for (String i : diccionario.keySet()) {
+            list.add(i);
+        }
+        for (int i = 0; i < 5 ; i++) {
+            x=(int) (Math.random() * ((19 -0) + 0)) + 1;
+            palabras.put(list.get(x),diccionario.get(list.get(x)));
+        }
+        System.out.println(palabras);
+
+        Scanner sc = new Scanner(System.in);
+        int correctas = 0;
+        int incorrectas =0;
+
+        for (String i : palabras.keySet()) {
+            System.out.println("Traduce la palabra: " + i);
+            String palabra = sc.nextLine();
+            if (Objects.equals(palabra,palabras.get(i)) ){
+                correctas++;
+            }else{
+                incorrectas++;
+            }
+        }
+
+        System.out.println("Respuestas correctas:"+correctas + "\nIncorrectas:"+incorrectas);
 
 
-    }
+
+        }
 }
