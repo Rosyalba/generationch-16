@@ -5,9 +5,9 @@ public class Persona {
     //nombre: String, edad: int, nss: int
     //caminar (): void, dormir (); void
 
-   private String nombre = "Karen";
-   private int edad = 24;
-   private int nss = 123;
+   public String nombre = "Karen";
+   public int edad = 24;
+   public int nss = 123;
 
     public Persona(int edad, int nss) {
         this.edad = edad;
