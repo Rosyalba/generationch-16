@@ -9,14 +9,22 @@ public class Circulo extends FigurasGeometricas {
     }
 
     @Override
-    public void setRadio(float v) {
+    public void setRadio(float radio) {
+        this.radio = radio;
 
     }
 
     public Circulo() {
+        super("Circulo");
+        this.radio = radio;
+    }
+
+    public float getRadio(){
+        return radio;
     }
 
     public Circulo(float radio) {
+        super();
         this.radio = radio;
     }
 }
