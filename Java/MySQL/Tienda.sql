@@ -10,6 +10,9 @@ telefono CHAR(50) NOT NULL,
 direccion VARCHAR(150) NOT NULL
 );
 
+DROP TABLE clientes;
+DROP TABLE compra;
+
 INSERT INTO clientes (nombre, apellido, telefono, direccion)
 VALUES('Pedro', 'Paramo', '12345678', 'Comala'),
 ('Gatos', 'Manchitas', '12345678', 'Comala'),

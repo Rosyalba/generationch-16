@@ -34,5 +34,5 @@ SET nombre = REPLACE (nombre, 'Magali', 'Marina');
 
 SELECT nombre, apellido FROM cohorte_16 WHERE nombre = 'Victor';
 SELECT * FROM cohorte_16;
-SELECT nombre, apellido FROM cohorte_16 ORDER BY apellido ASC ;
+SELECT nombre, apellido, companieros FROM cohorte_16 ORDER BY apellido ASC ;
 -- ASC - DESC --
